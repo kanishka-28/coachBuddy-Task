@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .mainContainer{
@@ -11,8 +12,35 @@
 
 .formContainer{
     width: 50%;
-    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+    padding: 50px;
 }
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    color: rgb(161, 161, 161);
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.heading{
+    color: #10baef;
+    margin: 20px 0;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid rgb(218, 218, 218) ;
+    outline: none;
+    padding-bottom: 14px;
+}
+
 .sidebarContainer{
     width: 50%;
     display: flex;
@@ -22,4 +50,42 @@
 }
 .BuddyContainer{
     margin-left: 10%;
+    width: 20rem;
+    color: white;
+}
+.coach{
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin: 0px;
+}
+.buddy{
+    /* border: 5px solid red; */
+    font-size: 3.5rem;
+    padding: 0px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin: 0px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    background: rgb(61, 212, 56);
+    color: white;
+    padding: 14px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+
+    cursor: pointer;
+    margin: 10px 10px;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(63, 230, 63);
+    padding: 8px;
 }

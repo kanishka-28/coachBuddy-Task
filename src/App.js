@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Login/>
-      {/* <Signup/>
-      <OtpReceive/> */}
+      {/* <Signup/> */}
+      {/* <OtpReceive/> */}
     </div>
   );
 }
