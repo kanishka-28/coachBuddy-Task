@@ -31,7 +31,8 @@
 
 .heading{
     color: #10baef;
-    margin: 20px 0;
+    margin: 15px 0;
+    letter-spacing: 1px;
 }
 
 .input{
@@ -46,7 +47,7 @@
     display: flex;
     justify-items: center;
     align-items: center;
-    background-image: linear-gradient(#20bf55, #10baef);
+    background-image: linear-gradient(to bottom right,#20bf55, #10baef);
 }
 .BuddyContainer{
     margin-left: 10%;
@@ -70,22 +71,55 @@
     display: flex;
     justify-content: space-evenly;
 }
+button.btn{
+    padding: 5px 20px;
+}
 .btn{
-    background: rgb(61, 212, 56);
     color: white;
-    padding: 14px;
     font-size: 12px;
     border: none;
-    border-radius: 5px;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-
+    height: fit-content;
+    text-decoration: none;
+    border-radius: 8px;
+    font-style: normal;
+    line-height: 24px;
     cursor: pointer;
     margin: 10px 10px;
-    border:none;
-    border-radius: 8px;
-    background-color: rgb(63, 230, 63);
-    padding: 8px;
+    background-color: #20BF55;
+    padding: 10px 20px;
+    letter-spacing: 0.8px;
+}
+@media screen and (max-width: 800px) {
+    .mainContainer{
+        flex-direction: column-reverse;
+    }
+    .formContainer{
+        width: 70%;
+        
+        align-items: center;
+    }
+    .sidebarContainer{
+        width: 100%;
+        
+    }
+    .submit-response{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+hr{
+    border: none;
+    border-bottom: 2px solid #10baef;
+    width: 20rem;
+  }
+.lineContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diamond{
+    color: #10baef;
+    width: 13px;
 }
