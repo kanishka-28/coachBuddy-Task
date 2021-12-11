@@ -4,7 +4,9 @@ import '../pages/index.css'
 const Sidebar = () => {
     return (
         <div className="sidebarContainer">
-            sidebar
+            <div className="BuddyContainer">
+                <h1 style={{color: 'white'}}>Coach</h1>
+            </div>
         </div>
     )
 }
